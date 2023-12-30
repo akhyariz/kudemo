@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: halo-kube
+  labels:
+    component: web
+spec:
+  containers:
+    - name: halo-kube
+      image: akhyariz/halo-kube:1.0
+      ports:
+        - containerPort: 80
