@@ -1,3 +1,5 @@
+![Alt kudemo-diagram](kudemo-diagram.png)
+
 # kudemo
 Ini merupakan aplikasi demo untuk buku "Kubernetes untuk Pemula" yang ditulis oleh Giri Kuncoro, Aris Risdianto, and Onno W. Purbo, diterbitkan oleh Penerbit Andi. Terdiri dari 2 aplikasi: halo, sebuah halaman Vue sederhana, dan todo, aplikasi pencatatan tugas sederhana.
 
@@ -36,3 +38,7 @@ Lalu jalankan 3 kontainer menggunakan docker compose.
 docker compose up
 ```
 Kunjungin aplikasi pada browser favorit kamu dengan alamat http://localhost:3000.
+
+
+### Note
+Dapat dideploy pada Minikube cluster tanpa modifikasi
